@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: bisque;
+  font-family: Verdana;
+  font-size: 18px;
+  flex: 10;
+  padding: 20px;
+}
+h1 {
+  font-size: 24px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+h2 {
+  margin-bottom: 5px;
+  text-align: center;
+}
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.first {
+  color: blue;
+}
+p {
+  margin-bottom: 20px;
+}
+
+#your-Name {
+  color: chocolate;
+  border: 4px solid #4444;
+  width: 500px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+input,
+button {
+  padding: 5px;
+  font-size: 15px;
+}
+
+a {
+  background-color: yellowgreen;
+}
+
+/*styling the element which is under id = your-name with heading h2*/
+
+#your-Name h2 {
+  color: olive;
+  font-size: 20px;
+  text-align: center;
+}
+
+#course-image {
+  width: 350px;
+  /*height: 200px;*/
+}
+
+button {
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid #2f4f4f;
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+}
